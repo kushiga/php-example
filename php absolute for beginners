@@ -6,7 +6,10 @@ $pass = "34klq*";
 
 $r = mysql_connect($host, $user, $pass);
 
-{
+if (!$r) {
+    echo "Could not connect to server\n";
+    trigger_error(mysql_error(), E_USER_ERROR);
+} else {
     echo "Connection established\n"; 
 }
 
@@ -32,7 +35,7 @@ This tutorial will take you no more than 15 minutes (including the time you need
 PHP OOP Tutorial →
 
 List Files and Directories with PHP
-Lists of files and directories are very ciommon in web development. This tutorial will show you how to list files and directories with the glob() function, a combination of the opendir(), readdir() and closedir() functions, and the scandir() function. You will also learn some advanced file/directory listing techniques – SPL iterators, such as the FilesystemIterator, the RecursiveDirectoryIterator, and the GlobIterator.
+Lists of files and directories are very common in web development. This tutorial will show you how to list files and directories with the glob() function, a combination of the opendir(), readdir() and closedir() functions, and the scandir() function. You will also learn some advanced file/directory listing techniques – SPL iterators, such as the FilesystemIterator, the RecursiveDirectoryIterator, and the GlobIterator.
 
 The tutorial isn’t as complex as it might at first seem, but you probably should budget at least 45 minutes to complete it. It could even take longer, if everything is not working as expected and you need to make some fixes.
 
@@ -49,7 +52,7 @@ Creating a class to handle database operatyions: DB.class.php
 Part 2 – Building the rest of the backend:
 
 Creating a User class
-Creating a UserTpols class
+Creating a UserTools class
 Registration / Logging in / Logging out
 Part 3 – Building the frontend:
 
@@ -72,7 +75,7 @@ The estimated time to complete the tutorial is about an hour.
 Automatic CSS3 Prefixer and Compressor Tutorial →
 
 Create Your Own Captcha in PHP
-This short tutorial has been wriyyen in a typical programmer’s fashion, meaning it has little to no explanation, short to missing comments, and the assumption that everything is obvious and clear. However, aside from this, it is a useful tutorial and the slightly more advanced programmers might love it just because it uses few words and plenty of code.
+This short tutorial has been written in a typical programmer’s fashion, meaning it has little to no explanation, short to missing comments, and the assumption that everything is obvious and clear. However, aside from this, it is a useful tutorial and the slightly more advanced programmers might love it just because it uses few words and plenty of code.
 
 Create Your Own Captcha in PHP tutorial
 
@@ -130,7 +133,7 @@ The estimated time for the completion of the task is about 10 to 15 minutes. Thi
 
 PHP Script Image of the Day →
 
-PHp is fun, and it can be used for so many tasks. These tutorials won’t make you a PHP guru, but they will help improve your skills and hopefully allow you to develop more complex PHP applications.
+PHP is fun, and it can be used for so many tasks. These tutorials won’t make you a PHP guru, but they will help improve your skills and hopefully allow you to develop more complex PHP applications.
 
 Related Posts
 Automating Laravel Tests with Buddy Sponsored
