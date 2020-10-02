@@ -1,0 +1,152 @@
+<?php
+
+$host = "localhost"; 
+$user = "user12"; 
+$pass = "34klq*"; 
+
+$r = mysql_connect($host, $user, $pass);
+
+{
+    echo "Connection established\n"; 
+}
+
+echo mysql_get_server_info() . "\n"; 
+
+mysql_close();
+
+?>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+........................................................................................................................................................
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you are already familiar with the SQL syntax this tutorial should only take you 2-4 hours.
+
+MySQL PHP Tutorial →
+
+PHP OOP Tutorial from Beginner to Advance
+This multipart tutorial series focuses on PHP from the object-oriented programming (OOP) point of view. It starts nice and gently, so even if you are a beginner to both PHP and OOP, you will be able to follow along easily. The first part covers the basic concepts of OOP, such as objects, abstraction, inheritance, encapsulation, and polymorphism, but the following parts delve much deeper.
+
+This tutorial will take you no more than 15 minutes (including the time you need to test the examples). However, the following tutorials in the series are much longer and more complicated, so for each of them you might want to devote half an hour or more.
+
+PHP OOP Tutorial →
+
+List Files and Directories with PHP
+Lists of files and directories are very ciommon in web development. This tutorial will show you how to list files and directories with the glob() function, a combination of the opendir(), readdir() and closedir() functions, and the scandir() function. You will also learn some advanced file/directory listing techniques – SPL iterators, such as the FilesystemIterator, the RecursiveDirectoryIterator, and the GlobIterator.
+
+The tutorial isn’t as complex as it might at first seem, but you probably should budget at least 45 minutes to complete it. It could even take longer, if everything is not working as expected and you need to make some fixes.
+
+List Files and Directories with PHP →
+
+Creating Your First PHP Application
+We are definitely way beyond the basics with this tutorial. In fact, it’s a series of tutorials that cover the following:
+
+Part 1 – Setting up the project and creating your first class:
+
+Creating an outline of the project
+Setting up your files and folders
+Creating a class to handle database operatyions: DB.class.php
+Part 2 – Building the rest of the backend:
+
+Creating a User class
+Creating a UserTpols class
+Registration / Logging in / Logging out
+Part 3 – Building the frontend:
+
+Forms
+Form Handling
+Displaying session data
+As you can see this is a large tutorial, so budget at least a couple of days to complete it.
+
+Creating Your First PHP Application →
+
+Automatic CSS3 Prefixer and Compressor Tutorial
+CSS files are text files but they can be very large. That is why they will benefit from some compression. Additionally, instead of writing all CSS3 properties with browser-specific prefixes by hand, this can be automated with PHP.
+
+Automatic CSS3 Prefixer and Compressor php Tutorial
+
+This tutorial will teach you exactly how to do this: Generate CSS3 properties with browser-specific prefixes, how to concatenate all the CSS files to save space and reduce load time, and how to do both automatically when a web page is requested.
+
+The estimated time to complete the tutorial is about an hour.
+
+Automatic CSS3 Prefixer and Compressor Tutorial →
+
+Create Your Own Captcha in PHP
+This short tutorial has been wriyyen in a typical programmer’s fashion, meaning it has little to no explanation, short to missing comments, and the assumption that everything is obvious and clear. However, aside from this, it is a useful tutorial and the slightly more advanced programmers might love it just because it uses few words and plenty of code.
+
+Create Your Own Captcha in PHP tutorial
+
+The tutorial is short, so it won’t take you more than 20 minutes.
+
+Create Your Own Captcha in PHP →
+
+Getting Started with PHP Regular Expressions
+And now a tutorial on everybody’s favorite: regular expressions. Unfortunately for everybody who hates them, regular expressions are pretty useful, though often you can bypass them with other techniques.
+
+Create Your Own Captcha in PHP tutorial
+
+The tutorial in the link explains what regular expressions are, the Perl compatible regular expressions, the basic syntax of PHP regular expressions, how to use regular expressions in PHP, useful regex functions. Additionally, the tutorial includes a cheat sheet where all the basic stuff is gathered in one neat place.
+
+The tutorial could take you an hour or two to complete but this depends on your familiarity with regular expressions. If you are a total stranger to them, expect to read some sections multiple times and, naturally, this will take you much more time.
+
+Getting Started with PHP Regular Expressions →
+
+Simple Banner Rotator With PHP, jQuery & MySQL
+This tutorial goes beyond PHP, but since in real life that is exactly what you need, that is why the tutorial is included here. First you need to create the database schema, then the XHTML code, then the CSS, and only after that you will move on to the PHP side of things.
+
+Simple Banner Rotator With PHP tutorial
+
+The tutorial will take you at least 2 hours to complete, and that is if you don’t have to make a lot of modifications to the code.
+
+Simple Banner Rotator With PHP, jQuery & MySQL →
+
+Build a CMS in an Afternoon with PHP and MySQL
+If we are honest here, this tutorial will probably take you more than an afternoon to complete. Having said that, it also isn’t as hard as it seems. In order to create the CMS, you do need to be familiar with the SQL syntax and MySQL, so if you do lack knowledge in these areas, first check the tutorials that teach MySQL above and then come back to this one.
+
+Build a CMS in an Afternoon with PHP and MySQL
+
+The CMS you will be learning to build will have all of the basic features you would expect from a CMS.
+
+The frontend will have:
+
+Homepage with the 5 most recent articles
+Article Listing Page (archives), where snippets of all articles are displayed
+A "View Article" page (single post), where visitors can read the entire article
+The backend will have:
+
+Admin login/logout
+List of all articles
+Add a new article
+Edit an existing article
+Delete an existing article
+Build a CMS in an Afternoon with PHP and MySQL →
+
+PHP Script Image of the Day
+This tutorial shows you how to create a PHP script image of the day. All you need to do is find today’s date (with the help of the date function), store the value in the "$today" variable, and compare $today with the name of the day. Then you display the message "Today is " … " (you can modify the message, of course), together with the image of the day.
+
+PHP Script Image of the Day
+
+The estimated time for the completion of the task is about 10 to 15 minutes. This however doesn’t include the time to search for the images to display every day, so you may want to prepare them in advance.
+
+PHP Script Image of the Day →
+
+PHp is fun, and it can be used for so many tasks. These tutorials won’t make you a PHP guru, but they will help improve your skills and hopefully allow you to develop more complex PHP applications.
+
+Related Posts
+Automating Laravel Tests with Buddy Sponsored
+Website Speed Part 4 : PHP Programming for Speed
+Getting Started with CRUD In PHP
+Looking at an Online School Through a Web Designer’s Eyes
+Famous Architecture Recreated with CSS and JavaScript
+What Your Clients Need to Know About a Website Redesign
+Chill Out with These Calming CSS & JavaScript Code Snippets
+The Kindness of Strangers: Developer Edition
+Related Tags
+PHP
+RSS Newsletter
+Subscribe to our RSS newsletter and receive all of our articles directly in your email inbox as soon as they're published.
+
+
+
+
+
